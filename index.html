@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="response()" type="button">Responsive single click</button> <!-- <button onclick="response()" type="button">Responsive</button> ondblclick"action" / onclick="action" is called as event handler and response() is custom unction present inside js file -->
+    <button ondblclick="response()" type="button">Responsive double click</button>
+    <button onmouseover="response()" type="button">Responsive hover</button> <!---<p>these onmouseover, onclick , ondblclick , onmouseup and onmousedown can be applied to any of the tags of html not only on buttons</p> -->
+    <button onmouseup="response()" type="button">Responsive on mouse up</button> <!--mouse up/mouse down is 3d perspective means mouse button clicked and hold is down and released is up till that pop up displayed satisfying conditiotn accordingly-->
+    <button onmousedown="response()" type="button">Responsive on mouse down</button>
+    <h1 id="clq" >Before submit is clicked</h1>
+    <button onclick="submit()" >submit</button>
+    <script src="function.js"></script>
+    <br>
+    <br>
+    <h1 id="num" >0</h1>
+    <button onclick="increase()" >Increase</button>
+    <button onclick="decrease()" >Decrease</button>
+    <button onclick="reset()" >Reset</button>
+    <br>
+    <br>
+    <!-- <button onclick="change()" ><h1 id="tattu" >Submit</h1></button> -->
+    <button id= "tattu" onclick="change()" >Submit</button>
+    <br>
+    <br>
+    <h1 id="wishing">Hi</h1>
+    <button onclick="wish()" >wish</button>
+    <button onclick="toggle()" >Toggle</button>
+
+
+</body>
+</html>
